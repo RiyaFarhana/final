@@ -1,0 +1,35 @@
+body{
+    width:100%;
+}
+form{
+    transition: all 0.5s ease;
+    margin: 0 auto;
+    width: 400px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 20PX;
+    border-radius: 20px;
+    
+}
+form:hover{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    border: 2px solid;
+}
+h1{
+    text-align: center;
+    color:navy;
+}
+input{
+    width: 90%;
+    padding:10px;
+    border-color:gray;
+    border-radius: 5px;
+}
+button{
+    margin: 20px 10px ;
+    margin-left: 0px;
+    padding: 10px;
+    border-color:gray;
+    border-radius: 5px;
+}
